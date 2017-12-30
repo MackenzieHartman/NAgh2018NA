@@ -74,7 +74,11 @@ li {
     font-weight: 600;
 }
 
-
+/* Contact Button */
+button{
+    overflow: visible;
+    font-weight: 600 !important;
+}
 
 
 /*===========  Learn More =============== */

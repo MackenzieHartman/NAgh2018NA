@@ -127,27 +127,27 @@
                 			<li class="nav-item">
                 				<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
                 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                					<a class="dropdown-item" href="./about_us.html">The Team</a><br>
+                					<a class="dropdown-item" href="./about_us.html#staff">The Team</a><br>
                 					<div role="separator" class="divider"></div>
                 					<a class="dropdown-item" href="./index.html#contact">Contact Us</a>
                 				</li>
                 				<li class="nav-item">
                 					<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Approach</a>
                 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                						<a class="dropdown-item" href="./our_approach.html">Why Great Heights?</a><br>
-                						<div role="separator" class="divider"></div>
-                						<a class="dropdown-item" href="#aba">What is ABA?</a><br>
+                                    <a class="dropdown-item" href="./our_approach.html#aba">What is ABA?</a><br>
+                					<div role="separator" class="divider"></div>
+                                    <a class="dropdown-item" href="./our_approach.html#service">Why Great Heights?</a><br>
                 						<!-- <div role="separator" class="divider"></div>
                 						<a class="dropdown-item" href="#testimonials">Testimonials</a> -->
                 					</li>
                 					<li class="nav-item dropdown">
-                						<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn More</a>
-                						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                							<a class="dropdown-item" href="./learn_more.html">FAQs</a><br>
-                						<div role="separator" class="divider"></div>
-                							<a class="dropdown-item" href="./learn_more.html#resources">Expertise</a><br>
-                						<div role="separator" class="divider"></div>
-                							<a class="dropdown-item" href="./learn_more.html#join">Join Our Team</a><br>
+	                				<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn More</a>
+	                				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	                                <a class="dropdown-item" href="./learn_more.html">Expertise</a><br>
+	                                <div role="separator" class="divider"></div>
+	                                <a class="dropdown-item" href="./learn_more.html#faqs">FAQs</a><br>
+	                                <div role="separator" class="divider"></div>
+                                    <a class="dropdown-item" href="./learn_more.html#join">Join Our Team</a><br>
                 						<!-- <div role="separator" class="divider"></div> -->
                 							<!-- <a class="dropdown-item" href="#">Blog</a> -->
                 						</div>
@@ -236,7 +236,35 @@
 		<!-- </section> -->
 
 <!-- ==================================== End Home SliderEnd ==================================== -->
-			
+        <!-- ================================================== Brand Video Section ================================================== -->
+        <section id="resources" class="parallax">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="sec-title text-center white wow animated fadeInDown">
+                            <br>
+                            <br>
+                            <h2>The Future is Bright</h2>
+                            <p style="font-style: italic; font-size:25px;">Great Heights. Where hope is renewed through personalized, proven treatment.</p>
+                        </div>
+                    <section id="portfolio">
+                            <div class="container">
+                                <div class="row">
+                                    <ul class="project-wrapper wow animated fadeInUp">
+                                        <li class="portfolio-item">
+                                            <video controls="controls" width="400" height="300" name="Video Name"><source src="img/portfolio/learning/AdobeStock_115329509.mov"></video>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            <div>
+                        </section>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- ============================================== End of Brand Video Section ============================================= -->			
 			
 		<!-- Why ABA | Why Great Heights section -->
 		<section id="staff">
@@ -261,28 +289,40 @@
 		<section id="staff">
 			<div class="container">
 				<div class="row">
+
+
+
 					<div class="sec-title text-center wow animated fadeInDown">
 						<br>
 						<br>
 						<br>
 						<br>
 						<h2>Meet the Team</h2>
-						<p class="meet">My mission is to renew hope and inspire the unimaginable for those<br>struggling with developmental disabilities and learning issues.</p>
-						<br>
+						<!-- <p class="meet">My mission is to renew hope and inspire the unimaginable for those<br>struggling with developmental disabilities and learning issues.</p> -->
 					<div class="about__section"> 
 					<!-- Specificity container -->
-					<a href="javascript:void(0);">
+					<div class="col-md-6 contact-form wow animated fadeInLeft column-left">
+
+					<!-- <a href="javascript:void(0);"> -->
 						<div class="about__slot">
-							<div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url(./img/slider/profile_placeholder.png);">
+							<!-- <div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url(./img/slider/Amy_McComas.png);">
+							</div> -->
+							<div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url(./img/slider/Amy_McComas.png);">
 							</div>
+
 							<div class="about__info">
-								<h4 class="name">Amy McComas</h4>
-								<h5 class="title">Chief Executive Officer</h5>
+								<h4 class="name">Dr. Amy McComas</h4>
+								<h5 class="maintitle">CEO & Founder</h5>
+								<h6 class="title">Board Certified Behavior Analyst</h6>
 							</div>
-							<div class="bioText">Koby Conrad is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
+							<div class="bioText"><br><br>
 							</div>
 						</div>
-					</a>
+					<!-- </a> -->
+				<div class="bio">
+					<br>
+					<p>Dr. Amy McComas is a distinguished, nationally-recognized Board Certified Behavior Analyst (BCBA) with more than 15 years of experience providing applied behavior analysis (ABA) treatment. Focused on helping individuals achieve their highest potential, Amy founded Great Heights to provide ABA treatment for those diagnosed with autism and other developmental disabilities. Amy is passionate about the proven benefits of ABA and dedicated to helping families find hope in achievement and results.</p>
+				</div>
 
 					<!-- <a href="javascript:void(0);">
 						<div class="about__slot">
@@ -496,7 +536,7 @@
 							</address>
 						</div>
 
-						<div class="col-sm-1 wow animated fadeInRight column-right" style="color: #ffffff">
+						<!-- <div class="col-sm-1 wow animated fadeInRight column-right" style="color: #ffffff">
 							<address class="contact-details">					
 								<p><i class="fa fa-clock-o"></i>Hours of Operation
 									<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monday 0:00am - 0:00pm</span>
@@ -509,7 +549,7 @@
 							</address>
 							<br>
 							<br>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</section>
