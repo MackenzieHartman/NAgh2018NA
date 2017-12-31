@@ -289,14 +289,14 @@
     <!-- portfolio section -->
     <section id="aba">
       <div class="container">
-        <div class="row">
-          <div class="sec-title text-center wow animated fadeInDown">
+        <div class="row" style="color: #ffffff">
+          <div class="sec-title text-center wow animated fadeInDown white">
             <br><br>
             <h2>What is ABA?</h2>
             <p>ABA Treatment for Children with Autism</p>
           </div>
-          <ul class="project-wrapper wow animated fadeInUp">
-            <li class="portfolio-item"><br>
+          <ul class="project-wrapper wow animated fadeInUp" >
+            <li class="portfolio-item aba"><br>
               Applied Behavior Analysis (ABA) treatment is based on the science of learning and behaviors. ABA is considered an evidence-based ͞best͟ practice for the safe and effective treatment of autism, endorsed by the U.S. Surgeon General. ABA therapy is structured, measures progress through data collection, and provides positive strategies for changing responses and behaviors.
             </li>
             <li class="aba-item">
@@ -527,8 +527,8 @@
         </div>
 
         <ul class="social-button">
-          <li class="wow animated zoomIn"><a href="#"><i class="fa fa-comment-o fa-2x"></i></a><br>FAQs</li>
-          <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-users fa-2x"></i></a><br>Expertise</li>	
+          <li class="wow animated zoomIn"><a href="./learn_more.html#faqs"><i class="fa fa-comment-o fa-2x"></i></a><br>FAQs</li>
+          <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="./learn_more.html#resources"><i class="fa fa-users fa-2x"></i></a><br>Expertise</li>	
           <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#contact"><i class="fa fa-envelope-o fa-2x"></i></a><br>Contact</li>				
         </ul>
       </div>
@@ -560,74 +560,83 @@
 		</section> -->
 		<!-- end Social section -->
 		
-		<!-- Contact section -->
-		<section id="contact" >
-			<div class="container">
-				<div class="row">
-					
-					<div class="sec-title text-center wow animated fadeInDown">
-						<h2>Contact Us</h2>
-						<p>Schedule an appointment.</p>
-					</div>
-					
-					<div class="col-md-6 contact-form wow animated fadeInLeft column-left">
-            <form action="#" method="post">
-              <div class="input-field">
-                <input type="text" name="name" class="form-control" placeholder="First | Last Name">
-              </div>
-              <div class="input-field">
-                <input type="email" name="email" class="form-control" placeholder="Email">
-              </div>
-              <div class="input-field">
-                <input type="number" name="phone number" class="form-control" placeholder="Phone Number">
-              </div>
-              <div class="input-field">
-                <input type="text" name="Relationship to Child" class="form-control" placeholder="Relationship to Child">
-              </div>
-              <div class="input-field">
-                <input type="text" name="Child's Name" class="form-control" placeholder="Child's Name">
-              </div>
-              <div class="input-field">
-                <input type="number" name="Child's Age" class="form-control" placeholder="Child's Age">
-              </div>
-              <div class="input-field">
-                <input type="text" name="subject" class="form-control" placeholder="Subject">
-              </div>
-              <div class="input-field">
-                <textarea name="message" class="form-control" placeholder="Message"></textarea>
-              </div><br>
-              <button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
-            </form>
+      <!-- ================================================== Contact Section ================================================== -->
+      <section id="contact" >
+        <div class="container">
+          <div class="row">
+            <div class="sec-title text-center wow animated fadeInDown">
+              <h2>Contact Us</h2>
+              <!-- <p class="contact-form">We're here to help. <br>Complete the form below and we'll be in touch to learn more about your child.</p> -->
+            </div>
+                        <p class="contact-form">We're here to help. <br>Complete the form below and we'll be in touch to learn more about your child.</p>
+
+            <div class="col-md-8 contact-form wow animated fadeInLeft">
+                            <!-- <p class="contact-form">We're here to help. <br>Complete the form below and we'll be in touch to learn more about your child.</p> --><br><br>
+            <!-- <div class="col-md-6 contact-form wow animated fadeInLeft column-left"> -->
+              <form action="#" method="post">
+                <div class="input-field">
+                  <input type="text" name="name" class="form-control" placeholder="First | Last Name" required="">
+                </div>
+                <div class="input-field">
+                  <input type="email" name="email" class="form-control" placeholder="Email" required="">
+                </div>
+                                <div class="input-field">
+                                    <input type="tel" name="phone number" title="tel" class="form-control" placeholder="Phone Number" required="">
+                                </div>
+                                <div class="input-field">
+                                    <input type="text" name="Relationship to Child" class="form-control" placeholder="Relationship to Child" required="">
+                                </div>
+                                <div class="input-field">
+                                    <input type="text" name="Child's Name" class="form-control" placeholder="Child's Name" required="">
+                                </div>
+                                <div class="input-field">
+                                    <input type="number" name="Child's Age" class="form-control" placeholder="Child's Age" required="">
+                                </div>
+                <div class="input-field">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="">
+                </div>
+                <div class="input-field">
+                  <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                </div><br>
+                    <button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
+              </form>
+            </div>
+            <div class="col-md-4 wow animated fadeInRight">
+            <!-- <div class="col-sm-1 wow animated fadeInRight column-center"> -->
+              <address class="contact-details">
+                                <h4>Reach out to us directly anytime.<h3></h3></h4> 
+                                <br>
+                <!-- <p><i class="fa fa-pencil"></i>Great Heights<span>PO Box 000000</span><span>City, State </span><span>United States</span></p> -->
+              </address>
+                            <address class="contact-details"> 
+                                <p><i class="fa fa-pencil"></i>Great Heights<span>PO Box 000000</span><span>City, State </span><span>United States</span></p>
+                                <br>
+                            </address>
+              <address class="ptn">
+                <p><i class="fa fa-phone"></i>&nbsp;&nbsp;Office: (260) 255-3665</p><br>
+                                <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;TBD</p><br>
+                                <p><i class="fa fa-fax"></i>&nbsp;&nbsp;Fax: (260) 255-3579</p><br>
+                                <p><i class="fa fa-map-marker fa-lg"></i>&nbsp;&nbsp;Directions:<a href="https://www.google.com/maps" target="_blank">&nbsp;Link to Google Maps</a></p>
+                            </address>
+            </div>
+            <!-- <div class="col-sm-1 wow animated fadeInRight column-right">
+              <address class="contact-details">         
+                <p><i class="fa fa-clock-o"></i>Hours of Operation
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monday 0:00am - 0:00pm</span>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tuesday 0:00am - 0:00pm </span>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wednesday 0:00am - 0:00pm</span>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thursday 0:00am - 0:00pm</span>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday 0:00am - 0:00pm</span>
+                </p>
+                <br>
+              </address>
+              <br>
+              <br>
+            </div> -->
           </div>
-
-          <div class="col-md-5 wow animated fadeInRight column-center">
-           <address class="contact-details">
-            <!-- <h3>Contact Us</h3> -->						
-            <p><i class="fa fa-pencil"></i>Great Heights<span>PO Box 000000</span> <span>City, State</span><span>United States</span></p><br>
-          </address>
-          <address class="ptn">
-            <p><i class="fa fa-phone"></i>&nbsp;&nbsp;Phone: (260) 255-3665</p><br>
-            <p><i class="fa fa-fax"></i>&nbsp;&nbsp;Fax: (260) 255-3579</p><br>
-            <p><i class="fa fa-envelope">&nbsp;&nbsp;</i>TBD</p><br>
-            <p><i class="fa fa-map-marker fa-lg"></i>&nbsp;&nbsp;Directions:<a href="https://www.google.com/maps" target="_blank">&nbsp;Link to Google Maps</a></p>
-          </address>
         </div>
-
-        <!-- <div class="col-sm-1 wow animated fadeInRight column-right">
-         <address class="contact-details">					
-          <p><i class="fa fa-clock-o"></i>Hours of Operation
-           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monday 0:00am - 0:00pm</span>
-           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tuesday 0:00am - 0:00pm </span>
-           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wednesday 0:00am - 0:00pm</span>
-           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thursday 0:00am - 0:00pm</span>
-           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday 0:00am - 0:00pm</span>
-         </p>
-       </address>
-     </div> -->		
-   </div>
- </div>
-</section>
-<!-- end Contact section -->
+      </section>
+      <!-- ================================================== End Contact Section ================================================== -->
 
 
 <!-- ================================================== Floating Social Media Bar ================================================== -->
