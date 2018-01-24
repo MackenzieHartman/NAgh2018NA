@@ -283,3 +283,101 @@
 	0% {opacity: 1;}
 	100% {opacity: 0;}
 }
+
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+body {font-family: bw mitga;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: cover;
+  min-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 8.0s;
+  animation-name: fade;
+  animation-duration: 8.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.dot-nav{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 7.5s;
+  animation-name: fade;
+  animation-duration: 7.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}

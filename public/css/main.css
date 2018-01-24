@@ -204,6 +204,10 @@ main > section {
   color: #fff;
 }
 
+.sec-title.grey {
+  color: #818181;
+}
+
 .sec-title h2 {
   font-size: 36px;
   margin: 0 0 30px;
@@ -230,6 +234,10 @@ main > section {
   border-bottom: 1px solid #fff;
 }
 
+.sec-title.orange h2:after {
+  border-bottom: 1px solid #eb6935;
+}
+
 .parallax {
   background-attachment: fixed;
   background-position: center top;
@@ -237,6 +245,9 @@ main > section {
   background-size: cover;
 }
 
+.quotes {
+  margin-top: 200px;
+}
 
 /* ========================================== Preloader ========================================== */
 
@@ -896,6 +907,14 @@ Services
   text-transform: uppercase;
 }
 
+/*=================================================================
+  Staff
+  ==================================================================*/
+.bright{
+    margin: 0px 0px 0px 315px;
+    font-size: 14px;
+    width: 280px;
+}
 /*=================================================================
   Staff
   ==================================================================*/
@@ -2269,20 +2288,20 @@ Mobile (Landscape) Design for a width of 480px
 }
 
 
-/*
-
-body {
+/*body {
   font-family: "helvetica neue", helvetica, sans-serif;
   background-color: #ffffff !important;
   overflow-y:hidden;
-}
-*/
+}*/
+
 .faq_section{
   margin:40px auto;
 }
+
 .FaQ_Each{
   padding-bottom: 10px;
 }
+
 .box  {
   /*background: rgba(246, 246, 246, 1);*/
   color: #666666;
@@ -2294,6 +2313,7 @@ body {
   cursor:pointer;
   border: 1px solid #d9d9d9;
 }
+
 .draw {
   display: none;
   background: #ffffff;
@@ -2308,9 +2328,7 @@ body {
   display: none;
 }
 
-
-
-/* WHY GREAT HEIGHTS - MAIN PAGE */
+/* ================== WHY GREAT HEIGHTS - MAIN PAGE =================== */
 .why{
   font-size: 16px;
   text-align: block;
@@ -2375,7 +2393,7 @@ p.why{
 
 /* Position */
 .snip1515 figcaption {
-  width: 100%;
+  width: 104%;
   background-color: #F2F2F2;
   color: #555;
   padding: 113px 25px 6px;
@@ -2390,15 +2408,17 @@ p.why{
 }
 
 .snip1515 h3 {
-  font-weight: 600;
+  font-weight: 450;
   font-size: 1.3em;
   font-family: 'bw mitga';
+  color: #424242;
 }
 
 .snip1515 h4 {
   color: #8c8c8c;
   font-weight: 400;
   letter-spacing: 2px;
+  font-size: 15px;
 }
 
 .snip1515 p {
